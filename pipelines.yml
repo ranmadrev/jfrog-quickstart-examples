@@ -5,11 +5,11 @@ resources:
       gitProvider: GitIntegration
       path: ranmadrev/jfrog-quickstart-examples
       branches:
-        include: master
+        include: main
   - name: myBuildInfo
     type: BuildInfo
     configuration:
-      sourceArtifactory: art
+      sourceArtifactory: default-generic-local
       buildName: SampleApp
       buildNumber: 1          
 pipelines:  
